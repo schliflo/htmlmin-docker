@@ -1,6 +1,6 @@
 FROM schliflo/docker-puppeteer
 
-RUN npm i -g \
+RUN npm install \
         penthouse@2 \
         html-minifier-terser@7 \
         request@2 \
